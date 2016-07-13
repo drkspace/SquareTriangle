@@ -9,7 +9,7 @@ public class Main {
 		while(true){
 			i++;
 			double squared = i*i;
-			for(double k = 0; k<10000000; k++){
+			for(double k = 0; k<squared; k++){
 				double triangle= ((k+1)*k)/2;
 				if(triangle>squared) break;
 				if(triangle==squared) {
